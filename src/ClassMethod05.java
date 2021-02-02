@@ -1,0 +1,12 @@
+import classMethod.human.Human05;
+
+public class ClassMethod05 {
+	public static void main(String[] args) {
+
+//		インスタンス変数の宣言
+		Human05 yamada = new Human05();
+
+		System.out.println("名前は" + yamada.getName() + "で年齢は" + yamada.getAge() + "です。");
+
+	}
+}
